@@ -7,6 +7,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
