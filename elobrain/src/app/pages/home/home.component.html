@@ -15,16 +15,72 @@
   </div>
 </section>
 
-<section class="section" id="spaced-learning-explanation">
+<section class="section" id="forgot-it">
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column has-text-centered">
-        <img class="no-connection" width="350" src="../../../assets/images/no-connection.png"/>
+        <img class="no-connection wobble-hor-bottom" width="350" src="../../../assets/images/no-connection.png"/>
       </div>
       <div class="column">
-        <p class="title">Esqueci!</p>
-        <p class="description"><strong>As vezes passamos horas estudando algo e dias depois não lembramos mais nada</strong>, como em uma prova, apresentação ou em um novo idioma.</p>
+        <p class="title">Putz! Esqueci!</p>
+        <p class="description"><strong>As vezes passamos horas estudando algo e dias depois não lembramos mais nada</strong>, como para uma prova, apresentação ou em um novo idioma.</p>
         <p class="description">Isso ocorre pois nosso cérebo esquece algumas coisas <strong>propositalmente</strong>, principalmente as que ele julga que não são importantes!</p>
+        <p class="description">Para não esquecermos, é preciso "dizer ao cérebro" que algo é importante, realizando revisões dos estudos ao longo dos dias. Esta técnica é conhecida como <strong>aprendizagem por repetição espaçada.</strong></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="power-brain">
+  <div class="container">
+    <div class="has-text-centered">
+      <p class="title">Aprendizagem por repetição ... o quê?!!</p>
+      <p class="description">Estudos indicam que a cada revisão, a curva de esquecimento começa a ficar cada vez mais estável, consolidando e prolongando aquele aprendizado em nossa memória cada vez por mais tempo!</p>
+      <div class="chart-wrapper">
+        <canvas baseChart
+            [datasets]="lineChartData"
+            [labels]="lineChartLabels"
+            [options]="lineChartOptions"
+            [colors]="lineChartColors"
+            [legend]="lineChartLegend"
+            [chartType]="lineChartType"
+            [plugins]="lineChartPlugins">
+        </canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="success-steps">
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-centered">
+        <figure>
+          <img src="../../../assets/images/eating-cloud.png">
+        </figure>
+        <p class="title">Cadastre os cartões</p>
+        <p class="description">Na plataforma <strong>elobrain</strong> crie perguntas para si e preencha a resposta para caso não lembre no futuro</p>
+      </div>
+      <div class="column has-text-centered">
+        <figure>
+          <img src="../../../assets/images/man-receaving-email.png">
+        </figure>
+        <p class="title">Seja notificado</p>
+        <p class="description">A plataforma <strong>elobrain</strong> gerencia as perguntas que você precisa revisar naquele dia e te notifica</p>
+      </div>
+      <div class="column has-text-centered">
+        <figure>
+          <img src="../../../assets/images/decision.png">
+        </figure>
+        <p class="title">Relembre e responda</p>
+        <p class="description">Você responderá no <strong>elobrain</strong> se lembrou da resposta para a pergunta corretamente</p>
+      </div>
+      <div class="column has-text-centered">
+        <figure>
+          <img src="../../../assets/images/success-brain.png">
+        </figure>
+        <p class="title">Melhore a cada dia</p>
+        <p class="description">O <strong>elobrain</strong> gerencia quais conhecimentos você já está dominando e quais ainda precisam de reforço, reordenando as perguntas diariamente</p>
       </div>
     </div>
   </div>
