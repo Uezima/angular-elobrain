@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { BigTitle } from '../../models/big-title.model';
 
 @Component({
@@ -6,6 +6,9 @@ import { BigTitle } from '../../models/big-title.model';
   templateUrl: './big-title.component.html',
   styleUrls: ['./big-title.component.scss']
 })
-export class BigTitleComponent{
+export class BigTitleComponent implements OnInit{
   @Input() bigTitle: BigTitle
+
+  ngOnInit(){}
+
 }

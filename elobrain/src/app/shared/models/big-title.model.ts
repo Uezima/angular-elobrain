@@ -2,5 +2,6 @@ export interface BigTitle {
   imageUrl: string,
   imageAlt: string,
   title: string,
-  subtitle: string
+  subtitle: string,
+  typewriter?: string[]
 }

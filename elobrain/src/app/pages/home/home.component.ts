@@ -17,7 +17,7 @@ export class HomeComponent {
     imageUrl: 'assets/images/flame-sign-up.png',
     imageAlt: 'Desenho de uma pessoa com óculos de realidade aumentada preenchendo uma folha',
     title: 'Aprenda qualquer coisa de verdade!',
-    subtitle: 'A plataforma elobrain irá te ajudar a aprender um novo idioma'
+    subtitle: 'A plataforma elobrain irá te ajudar a aprender de vez praticamente qualquer coisa!'
   }
 
   forgotItExplanation: Explanation = {
