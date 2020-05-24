@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="columns">
+    <div *ngFor="let topic of inlineTopics" class="column has-text-centered">
+      <figure>
+        <img src="{{ topic.imageUrl }}" alt="{{ topic.imageAlt }}">
+      </figure>
+      <p class="title">{{ topic.title }}</p>
+      <p class="description" [innerHTML]="topic.description"></p>
+    </div>
+  </div>
+</div>
