@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { InlineTopic } from '../../models/inline-topic.model';
+import { InlineTopic } from 'src/app/shared/models/inline-topic.model';
 
 
 @Component({

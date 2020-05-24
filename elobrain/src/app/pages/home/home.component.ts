@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ChartDataSets } from 'chart.js';
 import { Color, Label } from 'ng2-charts';
 
-import { InlineTopic } from '../../shared/models/inline-topic.model';
+import { InlineTopic } from 'src/app/shared/models/inline-topic.model';
 
 @Component({
   selector: 'app-home',
