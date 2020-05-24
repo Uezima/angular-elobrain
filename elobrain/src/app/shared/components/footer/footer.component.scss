@@ -1,0 +1,21 @@
+@import "../../../../styles/variables";
+
+footer {
+  background-color: $second-accent;
+
+  a {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
+
+  p {
+    color: #FFFFFF;
+    margin-top: 1.2em;
+    font-size: 0.8em;
+  }
+
+  strong {
+    color: #FFFFFF;
+  }
+}
+

@@ -12,6 +12,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { InlineTopicComponent } from './shared/components/inline-topic/inline-topic.component';
 import { ExplanationComponent } from './shared/components/explanation/explanation.component';
 import { BigTitleComponent } from './shared/components/big-title/bit-title.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BigTitleComponent } from './shared/components/big-title/bit-title.compo
     HomeComponent,
     InlineTopicComponent,
     ExplanationComponent,
-    BigTitleComponent
+    BigTitleComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
