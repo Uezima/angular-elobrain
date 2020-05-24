@@ -3,6 +3,7 @@ import { ChartDataSets } from 'chart.js';
 import { Color, Label } from 'ng2-charts';
 
 import { InlineTopic } from 'src/app/shared/models/inline-topic.model';
+import { Explanation } from 'src/app/shared/models/explanation.model';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,18 @@ import { InlineTopic } from 'src/app/shared/models/inline-topic.model';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+
+  explanation: Explanation = {
+    imageUrl: 'assets/images/no-connection.png',
+    imageAlt: 'Desenho de uma pessoa com aparência travada esquecendo de algo',
+    imageAnimation: 'wobble-hor-bottom',
+    title: 'Putz! Esqueci!',
+    description: [
+      '<strong>As vezes passamos horas estudando algo e dias depois não lembramos mais nada</strong>, como para uma prova, apresentação ou em um novo idioma.',
+      'Isso ocorre pois nosso cérebo esquece algumas coisas <strong>propositalmente</strong>, principalmente as que ele julga que não são importantes!',
+      'Para não esquecermos, é preciso "dizer ao cérebro" que algo é importante, realizando revisões dos estudos ao longo dos dias. Esta técnica é conhecida como <strong>aprendizagem por repetição espaçada.</strong>'
+    ]
+  }
 
   inlineTopics: InlineTopic[] = [{
       imageAlt: 'Núvem segurando um pote com uma mão e comendo dados com um hashi na outra mão',

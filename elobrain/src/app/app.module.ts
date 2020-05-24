@@ -10,13 +10,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { InlineTopicComponent } from './shared/components/inline-topic/inline-topic.component';
+import { ExplanationComponent } from './shared/components/explanation/explanation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    InlineTopicComponent
+    InlineTopicComponent,
+    ExplanationComponent
   ],
   imports: [
     BrowserModule,

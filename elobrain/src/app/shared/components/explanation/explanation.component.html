@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="columns is-vcentered">
+    <div class="column has-text-centered">
+      <img class="no-connection {{ explanation.imageAnimation }}" width="350" src="{{ explanation.imageUrl }}"/>
+    </div>
+    <div class="column">
+      <p class="title">{{ explanation.title }}</p>
+      <p class="description" *ngFor="let description of explanation.description" [innerHTML]="description"></p>
+    </div>
+  </div>
+</div>
