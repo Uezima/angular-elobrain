@@ -3,5 +3,7 @@ export interface Explanation {
   imageAlt: string,
   imageAnimation?: string,
   title: string,
-  description: string[]
+  description: string[],
+  buttonText?: string,
+  buttonAction?: string
 }

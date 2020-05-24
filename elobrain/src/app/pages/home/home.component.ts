@@ -20,7 +20,7 @@ export class HomeComponent {
     subtitle: 'A plataforma elobrain irá te ajudar a aprender um novo idioma'
   }
 
-  explanation: Explanation = {
+  forgotItExplanation: Explanation = {
     imageUrl: 'assets/images/no-connection.png',
     imageAlt: 'Desenho de uma pessoa com aparência travada esquecendo de algo',
     imageAnimation: 'wobble-hor-bottom',
@@ -36,27 +36,42 @@ export class HomeComponent {
       imageAlt: 'Núvem segurando um pote com uma mão e comendo dados com um hashi na outra mão',
       imageUrl: 'assets/images/eating-cloud.png',
       title: 'Cadastre os cartões',
-      description: 'Na plataforma <strong>elobrain</strong> crie perguntas para si e preencha a resposta para caso não lembre no futuro'
+      description: 'Na plataforma <strong>elobrain</strong> crie perguntas em cartões e preencha a resposta para caso não lembre no futuro'
     },
     {
       imageAlt: 'Pessoa segurando um celular que recebe uma notificação',
       imageUrl: 'assets/images/man-receaving-email.png',
       title: 'Seja notificado',
-      description: 'A plataforma <strong>elobrain</strong> gerencia as perguntas que você precisa revisar naquele dia e te notifica'
+      description: 'A plataforma <strong>elobrain</strong> gerencia os cartões que você precisa revisar naquele dia e te notifica'
     },
     {
       imageAlt: 'Pessoa em um computador que apresenta uma pergunta de sim ou não',
       imageUrl: 'assets/images/decision.png',
       title: 'Relembre',
-      description: 'Você responderá no <strong>elobrain</strong> se lembrou da resposta para a pergunta corretamente'
+      description: 'Você responderá no <strong>elobrain</strong> se lembrou corretamente da resposta para o cartão pergunta'
     },
     {
       imageAlt: 'Desenho de um cérebro comemorando',
       imageUrl: 'assets/images/success-brain.png',
       title: 'Melhore a cada dia',
-      description: 'O <strong>elobrain</strong> gerencia quais conhecimentos você já está dominando e quais ainda precisam de reforço, reordenando as perguntas diariamente'
+      description: 'O <strong>elobrain</strong> gerencia quais conhecimentos você já está dominando e quais ainda precisam de reforço, reordenando os cartões diariamente'
     }
   ]
+
+  signUpCall: Explanation = {
+    imageUrl: 'assets/images/downloading.png',
+    imageAlt: 'Desenho de uma pessoa com aparência travada esquecendo de algo',
+    imageAnimation: 'floating',
+    title: 'Bora começar a aprender mais coisas?',
+    description: [
+      '<strong>Comece agora mesmo a criar seus cartões</strong> para estudar um novo idioma, uma linguagem de programação, geografia, filosofia, matemática, enfim ... qualquer coisa!',
+      'Através de uma inteligência artificial iremos mandar os cartões que você precisa relembrar!',
+      '<strong>Utilize o elobrain gratuitamente!</strong>'
+    ],
+    buttonAction: 'singup',
+    buttonText: 'Clique aqui para começar!'
+  }
+
 
   lineChartData: ChartDataSets[] = [
     { data: [100, 85, 60, 35, 15], label: 'Estudo sem revisão posterior' },

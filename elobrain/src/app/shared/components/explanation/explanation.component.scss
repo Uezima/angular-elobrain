@@ -1,3 +1,5 @@
+@import "../../../../styles/variables";
+
 .explanation{
   .title {
     margin-bottom: 1.5em;
@@ -9,5 +11,14 @@
     margin-top: 1.5em;
     font-size: 1.2em;
     font-weight: 200;
+  }
+
+  .button {
+    font-family: "Comfortaa";
+    margin-top: 2em;
+    background: $accent;
+    color: #FFFFFF;
+    height: 4em;
+    cursor: pointer;
   }
 }

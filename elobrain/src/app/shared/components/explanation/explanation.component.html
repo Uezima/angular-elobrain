@@ -6,6 +6,7 @@
     <div class="column">
       <p class="title">{{ explanation.title }}</p>
       <p class="description" *ngFor="let description of explanation.description" [innerHTML]="description"></p>
+      <button *ngIf="explanation.buttonText" class="button" routerLink="{{ explanation.buttonAction }}">{{ explanation.buttonText }}</button>
     </div>
   </div>
 </div>
