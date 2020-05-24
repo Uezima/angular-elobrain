@@ -4,6 +4,7 @@ import { Color, Label } from 'ng2-charts';
 
 import { InlineTopic } from 'src/app/shared/models/inline-topic.model';
 import { Explanation } from 'src/app/shared/models/explanation.model';
+import { BigTitle } from 'src/app/shared/models/big-title.model';
 
 @Component({
   selector: 'app-home',
@@ -11,6 +12,13 @@ import { Explanation } from 'src/app/shared/models/explanation.model';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+
+  bigTitle: BigTitle = {
+    imageUrl: 'assets/images/flame-sign-up.png',
+    imageAlt: 'Desenho de uma pessoa com óculos de realidade aumentada preenchendo uma folha',
+    title: 'Aprenda qualquer coisa de verdade!',
+    subtitle: 'A plataforma elobrain irá te ajudar a aprender um novo idioma'
+  }
 
   explanation: Explanation = {
     imageUrl: 'assets/images/no-connection.png',

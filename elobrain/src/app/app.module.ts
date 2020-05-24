@@ -11,6 +11,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { InlineTopicComponent } from './shared/components/inline-topic/inline-topic.component';
 import { ExplanationComponent } from './shared/components/explanation/explanation.component';
+import { BigTitleComponent } from './shared/components/big-title/bit-title.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExplanationComponent } from './shared/components/explanation/explanatio
     HeaderComponent,
     HomeComponent,
     InlineTopicComponent,
-    ExplanationComponent
+    ExplanationComponent,
+    BigTitleComponent
   ],
   imports: [
     BrowserModule,
