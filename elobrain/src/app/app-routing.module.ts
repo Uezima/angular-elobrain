@@ -1,12 +1,26 @@
 import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { SigninComponent } from './pages/signin/signin.component';
+import { LandingLayoutComponent } from './layouts/landing/landing-layout.component';
+import { LandingRoutingModule } from './pages/landing/landing-routing.module';
+import { DashboardLayoutComponent } from './layouts/dashboard/dashboard-layout.component';
+import { DashboardRoutingModule } from './pages/dashboard/dashboard-routing.module';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'signin', component: SigninComponent }
+  {
+    path: '',
+    component: LandingLayoutComponent,
+    children: [
+      { path: '', loadChildren: () => LandingRoutingModule }
+    ]
+  },
+  {
+    path: 'dashboard',
+    component: DashboardLayoutComponent,
+    children: [
+      { path: '', loadChildren: () => DashboardRoutingModule }
+    ]
+  }
 ]
 
 @NgModule({
