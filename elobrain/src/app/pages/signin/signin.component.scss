@@ -1,0 +1,33 @@
+@import "../../../styles/variables";
+
+.signin {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: $neutral;
+
+  .form {
+    padding: 2em;
+
+    .field {
+      margin-top: 1em;
+    }
+
+    .button {
+      width: 200px;
+      height: 50px;
+      cursor: pointer;
+      margin-top: 1.5em;
+      color: #FFFFFF;
+      background: $accent;
+    }
+  }
+
+  .card-footer {
+    a {
+      color: $primary;
+    }
+  }
+}

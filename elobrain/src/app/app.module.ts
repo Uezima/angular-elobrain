@@ -13,6 +13,7 @@ import { InlineTopicComponent } from './shared/components/inline-topic/inline-to
 import { ExplanationComponent } from './shared/components/explanation/explanation.component';
 import { BigTitleComponent } from './shared/components/big-title/bit-title.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { SigninComponent } from './pages/signin/signin.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     InlineTopicComponent,
     ExplanationComponent,
     BigTitleComponent,
-    FooterComponent
+    FooterComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
