@@ -14,7 +14,7 @@ import { ExplanationComponent } from './shared/components/explanation/explanatio
 import { BigTitleComponent } from './shared/components/big-title/bit-title.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { SigninComponent } from './pages/landing/signin/signin.component';
-import { OverviewComponent } from './pages/dashboard/overview/overview.component';
+import { DailyComponent } from './pages/dashboard/daily/daily.component';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { DashboardLayoutComponent } from './layouts/dashboard/dashboard-layout.component';
 import { LandingLayoutComponent } from './layouts/landing/landing-layout.component';
@@ -32,7 +32,7 @@ import { DashboardRoutingModule } from './pages/dashboard/dashboard-routing.modu
     FooterComponent,
     SigninComponent,
     SidebarComponent,
-    OverviewComponent,
+    DailyComponent,
     DashboardLayoutComponent,
     LandingLayoutComponent,
   ],
@@ -40,8 +40,8 @@ import { DashboardRoutingModule } from './pages/dashboard/dashboard-routing.modu
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    LandingRoutingModule,
     DashboardRoutingModule,
+    LandingRoutingModule,
     ChartsModule,
   ],
   providers: [],

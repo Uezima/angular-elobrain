@@ -1,0 +1,76 @@
+<section class="section" id="overview">
+  <h1 class="title">Bem vindo, {{ 'usuario' }}</h1>
+  <h2 class="subtitle">
+    Confira abaixo as atividades de hoje e tenha bons estudos!
+  </h2>
+  <div class="daily-status columns">
+    <div class="column">
+      <div class="card">
+        <div class="card-content has-text-centered is-vcentered">
+          <p>Hoje você precisa revisar</p>
+          <p><strong>{{ 'X' }}</strong></p>
+          <p>cartões</p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-content has-text-centered">
+          <p>Você está aprendendo</p>
+          <p><strong>{{ 'X' }}</strong></p>
+          <p>cartões</p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <div class="card-content has-text-centered">
+          <p>Você já aprendeu</p>
+          <p><strong>{{ 'X' }}</strong></p>
+          <p>cartões</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="status">
+  <div class="card">
+    <div class="columns has-text-centered is-vcentered">
+      <div class="column">
+        <p>Você está em dia com seus estudos, continue estudando diariamente! ;-)</p>
+      </div>
+      <div class="column">
+        <img class="floating" src="assets/images/come-back-later.png" width="200"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="decks">
+  <h2 class="subtitle">
+    Atividades pendentes
+  </h2>
+  <div class="columns is-multiline">
+    <div class="column is-4">
+      <div class="card">
+        <div class="card-content">
+          <span class="tag is-warning">Atividade em atraso</span>
+          <p class="title">
+            Inglês
+          </p>
+          <p class="subtitle">
+            Revise {{ '2'}} cartões hoje
+          </p>
+        </div>
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>
+              Revisar
+            </span>
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</section>

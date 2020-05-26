@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { OverviewComponent } from './overview/overview.component';
+import { DailyComponent } from './daily/daily.component';
 
 const routes: Routes = [
   {
-    path: 'dashboard',
+    path: '',
     children: [
-      { path: '', component: OverviewComponent}
+      { path: '', component: DailyComponent },
     ]
   }
 ]

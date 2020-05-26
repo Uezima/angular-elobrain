@@ -1,3 +1,10 @@
+@import "../../../../styles/variables";
+
 span {
     font-family: "Comfortaa";
+}
+
+.signup {
+  color: #FFFFFF;
+  background-color: $accent;
 }

@@ -1,0 +1,27 @@
+@import "../../../../styles/variables";
+
+.section {
+  padding-top: 0;
+}
+
+#overview {
+  .card {
+    padding-top: 1em;
+    min-height: 160px;
+  }
+}
+
+#decks {
+  .card {
+    .title {
+      margin-top: 0.8em;
+    }
+    .subtitle {
+      margin-top: 1em;
+    }
+    .card-footer-item {
+      color: #FFFFFF;
+      background-color: $accent;
+    }
+  }
+}
