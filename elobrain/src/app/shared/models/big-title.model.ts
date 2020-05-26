@@ -3,5 +3,7 @@ export interface BigTitle {
   imageAlt: string,
   title: string,
   subtitle: string,
-  typewriter?: string[]
+  typewriter?: string[],
+  buttonText?: string,
+  buttonAction?: string
 }
